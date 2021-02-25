@@ -1,3 +1,6 @@
+// by Christian80gabi
+// com.christian80gabi.api.socket.client
+
 import java.io.Serializable;
 import java.util.UUID;
 

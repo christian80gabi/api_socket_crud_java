@@ -101,7 +101,7 @@ public class Product implements Serializable {
     // ToSTRING
     @Override
     public String toString() {
-        return "com.christian80gabi.api.socket.models.Product{" +
+        return "com.christian80gabi.api.socket.com.christian80gabi.api.socket.models.com.christian80gabi.api.socket.models.Product{" +
                 "reference:'" + reference + '\'' +
                 ", name:'" + name + '\'' +
                 ", price:" + price +
