@@ -9,7 +9,7 @@ public class ConnectionSingleton {
 
     static String url = "jdbc:mysql://localhost:3306/api_products?serverTimezone=UTC";
     static String user = "chris";
-    static String password = "???"; // replace '???' by your database user password
+    static String password = "ChristianSQL8.0"; // replace '???' by your database user password
 
     static {
         try {

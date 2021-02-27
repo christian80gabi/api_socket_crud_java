@@ -4,7 +4,7 @@
 /**
  * Test Class
  */
-public class AppTest {
+public class AppTestServices {
     public static void main(String[] args) {
         Services services = new Services();
 

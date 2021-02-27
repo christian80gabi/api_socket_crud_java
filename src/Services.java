@@ -11,27 +11,12 @@ public class Services {
         System.out.println("Product added successfully!!!");
     }
 
-    public void getProduct(String reference) {
-        Product product =  service.getProduct(reference);
-        if (product != null) {
-            System.out.println("Product found!!!");
-            System.out.println(product);
-        } else {
-            System.out.println("No Product found!!!");
-        }
+    public Product getProduct(String reference) {
+       return service.getProduct(reference);
     }
 
-    public void getProducts() {
-        List<Product> products = service.getProducts();
-
-        if (products != null) {
-            System.out.println("\nList of products:");
-            for (Product product : products) {
-                System.out.println(product);
-            }
-        } else {
-            System.out.println("No products!!!");
-        }
+    public List<Product> getProducts() {
+        return service.getProducts();
     }
 
     public void updateProduct(Product product) {
