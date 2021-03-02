@@ -8,7 +8,7 @@
 * **JetBrains - Intellij IDEA**
 
 ```PowerShell
-  It can\'t work on JAVA (JKD) > 1.8  
+  It can't work on JAVA (JKD) > 1.8  
 ```
 
 Before running the program, you need to config the database:
